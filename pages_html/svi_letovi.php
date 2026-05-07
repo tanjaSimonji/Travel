@@ -41,7 +41,43 @@
             <th><b>VREME POLAZKA</b></th>
 
         </tr>
-<?php 
+        <tr>
+            <td><b>BEOGRAD</b></td>
+            <td><b>PARIZ</b></td>
+            <td><b>8:00</b></td>
+
+        </tr>
+        <tr>
+            <td><b>BEOGRAD</b></td>
+            <td><b>MADRID</b></td>
+            <td><b>17:00</b></td>
+
+        </tr><tr>
+            <td><b>BEOGRAD</b></td>
+            <td><b>SARAJEVO</b></td>
+            <td><b>20:00</b></td>
+        </tr>
+        </tr><tr>
+            <td><b>BEOGRAD</b></td>
+            <td><b>LONDON</b></td>
+            <td><b>10:00</b></td>
+        </tr>
+        </tr><tr>
+            <td><b>BEOGRAD</b></td>
+            <td><b>BERLIN</b></td>
+            <td><b>20:00</b></td>
+        </tr>
+        </tr><tr>
+            <td><b>BEOGRAD</b></td>
+            <td><b>TOKIO</b></td>
+            <td><b>18:00</b></td>
+        </tr>
+        </tr><tr>
+            <td><b>BEOGRAD</b></td>
+            <td><b>NEW YORK</b></td>
+            <td><b>22:00</b></td>
+        </tr>
+<!-- <?php 
     require_once("../konekcija.php");
 
     $query = "SELECT Od, Do, VremePolaska FROM let";
@@ -55,7 +91,7 @@
     }
     $numb = "Fred" + 1;
     var_dump($numb)
-?>
+?> -->
 
     </table>
 
