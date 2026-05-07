@@ -1,0 +1,175 @@
+#checkbtn {
+    color: aliceblue
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(19, 122, 147);
+    cursor: context-menu;
+}
+
+#pretraga {
+    background-color: rgb(215, 248, 248);
+    color: rgb(19, 122, 147);
+    border-radius: 5px;
+    border-color: rgb(19, 122, 147);
+    border-width: 2px;
+    padding: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: text;
+    float: right;
+    width: 500px;
+    height: 20px;
+}
+
+
+.navbar a {
+    padding: 20px 28px 20px 28px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar ul {
+    padding-left: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #7addf0;
+    margin: 0;
+    border-radius: 5px;
+
+}
+
+.navbar a:hover {
+    color: rgb(19, 122, 147);
+}
+
+
+.img_index img {
+    margin: 5px;
+    border-radius: 5px
+}
+
+
+footer {
+    background-color: #7addf0;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: small;
+}
+
+a {
+    color: rgb(19, 122, 147);
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.konklava:hover,
+.zlica:hover,
+.here:hover,
+.gladiator:hover,
+.ekskurzija:hover {
+    background-color: rgb(63, 72, 69);
+    transform: scale(1.03);
+    border-radius: 5px;
+}
+
+.opis {
+    display: inline-block;
+    color: rgb(160, 163, 162);
+}
+
+#dugme,
+#dugme_pretrazi {
+    background-color: rgb(19, 122, 147);
+    color: aliceblue;
+    border-radius: 5px;
+    border-color: rgb(215, 248, 248);
+    border-width: 2px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+#dugme:hover,
+#dugme_pretrazi:hover {
+    color: rgb(19, 122, 147);
+    background-color: rgb(255, 255, 255);
+}
+
+#dugme_pretrazi {
+    float: right;
+    height: 47px;
+}
+
+table {
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(19, 122, 147);
+    color: white;
+    height: 50px;
+    border: 1px solid aqua;
+}
+
+
+td {
+    text-align: center;
+    border: 1px solid aqua;
+    height: 35px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(160, 163, 162);
+    color: #000;
+}
+
+#kontakt {
+    margin-left: 20px;
+}
+
+#datum,
+select {
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 122, 147);
+    border-radius: 5px;
+    border-color: rgb(19, 122, 147);
+    border-width: 2px;
+    margin-bottom: 30px;
+    height: 40px;
+
+}
+
+input#email,
+#email_fieldset,
+#broj_karata {
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 122, 147);
+    border-radius: 5px;
+    border-color: rgb(19, 122, 147);
+    border-width: 2px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: auto;
+}
+
+fieldset {
+    border-radius: 5px;
+}
